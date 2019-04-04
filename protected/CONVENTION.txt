@@ -1,0 +1,23 @@
+// Spécifier le type de retour
+public function mafunction(): int
+{
+...
+}
+
+// Si valeur de contrôle null retournée si erreur : rajouter '?' avant le type de retour
+public function mafonction(): ?int
+{
+...
+}
+
+// Spécification du type d'argument, '?' très important car autorise la valeur null
+public function test(?String chaine){
+...
+}
+
+// A chaque <input id="id"> sa balise <label for="id">
+<label for="id"><input id="id" ...>
+
+// Tous les noms système postgreSQL (colonnes, nom base) doivent être en minuscules
+
+// ATTENTION ! certains champs de saisie retourne une chaine "" mais une chaine quand même

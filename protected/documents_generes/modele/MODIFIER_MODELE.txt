@@ -1,0 +1,6 @@
+Si vous voulez modifier le modèle de lettre d'embauche :
+
+1. Ouvrir modele_lettre_embauche.docx avec Word
+2. Modifier le modèle
+3. Enregistrer sous avec le même nom, et avec comme type Page Web, filtrée  (très important)
+4. Un message signale que cela supprimera les balises offices, cliquez sur Oui
