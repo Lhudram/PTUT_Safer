@@ -1,0 +1,282 @@
+/*Textes*/
+
+* {
+    color: black !important;
+}
+
+*:hover {
+    color: black !important;
+}
+
+*:active {
+    color: black !important;
+}
+
+.btn-primary, .btn-success, .btn-danger {
+    color: white !important;
+}
+
+#titre_page h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/*Nav*/
+
+nav li {
+    background-color: #cccccc;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav li:hover {
+    background-color: #f29900;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .gerer {
+    background-color: #cccccc;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .gerer:hover {
+    background-color: #c6a586 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .editer {
+    background-color: #cccccc;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .editer:hover {
+    background-color: #a8d3f0 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .generer {
+    background-color: #cccccc;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .generer:hover {
+    background-color: #ffec80 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+#page_actuelle.gerer {
+    background-color: #966d47 !important;
+}
+
+#page_actuelle.editer {
+    background-color: #66b2e4 !important;
+}
+
+#page_actuelle.generer {
+    background-color: #f4cf00 !important;
+}
+
+#page_actuelle.parametres {
+    background-color: #f29900 !important;
+}
+
+@media (min-width: 768px) {
+    .gerer a, .editer a, .generer a, .parametres a {
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+    }
+}
+
+nav li a {
+    background-color: transparent !important;
+    min-width: 100% !important;
+    margin: 0 !important;
+}
+
+nav li a:hover {
+    background-color: transparent !important;
+}
+
+nav li a:visited {
+    background-color: transparent !important;
+}
+
+#retour {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left 1% center;
+    background-image: url('./../images/icone_chevron_gauche_clair.png');
+}
+
+#retour:hover {
+    background-image: url('./../images/icone_chevron_gauche_fonce.png');
+}
+
+/*Formulaires*/
+
+form {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+input, textarea, select {
+    margin-bottom: 1em !important;
+    padding: 0.3em !important;
+    border-radius: 0;
+    border: 0.1em solid black !important;
+    -webkit-transition: border 0.5s; /* Safari */
+    transition: border 0.5s;
+}
+
+input:focus, textarea:focus, select:focus {
+    margin-bottom: 1em !important;
+    padding: 0.3em !important;
+    border-radius: 0;
+    border: 0.11em solid #8ca40a !important;
+    -webkit-transition: border 0.5s; /* Safari */
+    transition: border 0.5s;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+    box-shadow: none;
+}
+
+select {
+    width: 100%;
+    text-align: left !important;
+}
+
+#liste select {
+    text-align: center;
+    width: 100%;
+    border-radius: 0;
+}
+
+/*Blocs*/
+
+#contenu {
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    background-image: url(./../images/logo-noir-et-blanc.png);
+    min-height: 590px;
+}
+
+.row {
+    margin-top: 2em;
+}
+
+/*Boutons*/
+
+body {
+    background-color: whitesmoke !important;
+}
+
+.btn {
+    background-color: #dddddd !important;
+    border-color: #dddddd !important;
+    border-radius: 0 !important;
+    box-shadow: 1px 1px #dddddd;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #cccccc !important;
+    border-color: #dddddd !important;
+    border-radius: 0 !important;
+    box-shadow: 1px 1px #dddddd;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+.btn-success, .btn-primary {
+    background-color: #8ca40a !important;
+    border-color: #8ca40a !important;
+    box-shadow: 1px 1px #dddddd;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+.btn-success:hover, .btn-primary:hover {
+    border-color: #7b9309 !important;
+    background-color: #7b9309 !important;
+    box-shadow: 1px 1px #dddddd;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+.btn-danger {
+    border-color: #f29900 !important;
+    background-color: #f29900 !important;
+    box-shadow: 1px 1px #dddddd;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+.btn-danger:hover {
+    border-color: #d07700 !important;
+    background-color: #d07700 !important;
+    box-shadow: 1px 1px #dddddd;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+/*Popups*/
+
+.modal-content {
+    padding: 2%;
+    border-radius: 0 !important;
+    text-align: center;
+}
+
+.modal-content .btn {
+    margin: 0 !important;
+}
+
+/*Autres*/
+
+#ajouts_listes_parametrees button, #ajouts_listes_parametrees input {
+    margin: 0 !important;
+    width: 100%;
+}
+
+#ajouts_listes_parametrees button:hover, #ajouts_listes_parametrees input:hover {
+    border-top: 1px solid #f29900 !important;
+}
+
+.deconnexion img {
+    width: 45px;
+    height: 45px;
+}
+
+.deconnexion a {
+    padding: 0 !important;
+}
+
+.deconnexion:hover {
+    text-decoration: none;
+    background-color: #878787;
+}
+
+.desactive {
+    pointer-events: none;
+    cursor: default;
+}
+
+.desactive li {
+    background-color: #c1c1c1 !important;
+    -webkit-filter: brightness(30%);
+}
+
+#test {
+    position: relative;
+    vertical-align: bottom;
+}

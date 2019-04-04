@@ -1,0 +1,45 @@
+#titre_page {
+    text-align: center;
+}
+#liste_paragraphe {
+    margin-bottom: 0 !important;
+}
+
+#contenu_paragraphe {
+    margin-top: 2% !important;
+    resize: none;
+    width: 100%;
+    min-height: 360px;
+}
+
+#table_informations_paragraphe td{
+    padding-right: 50px;
+    text-align: left;
+}
+
+#intitule, #indice{
+    width:170%;
+}
+
+#enregistrer, #supprimer{
+    margin-top: 10%;
+    float: left;
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+}
+
+#supprimer {
+    margin-left: 10% ;
+}
+
+#creer_nouveau_paragraphe {
+    color: #8ca40a !important;
+}
+
+.droite {
+    margin-right: 60%;
+}
+.balises{
+    margin-top:0 !important;
+}

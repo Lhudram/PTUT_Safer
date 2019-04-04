@@ -1,0 +1,48 @@
+h2 {
+    margin: 2% !important;
+    padding: 1%;
+
+    background-image: url('./../commonfiles/images/icone_chevron_droite_clair.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 1% center;
+    border: 1px solid #dddddd !important;
+    border-bottom: 2px solid #dddddd !important;
+    background-color: #efefef;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+    font-size: 150% !important;
+}
+
+h2:hover {
+    background-image: url('./../commonfiles/images/icone_chevron_droite_fonce.png');
+    background-color: #f29900 !important;
+    border-bottom: 2px solid #f29900 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+h2.clique {
+    background-image: url('./../commonfiles/images/icone_chevron_droite_fonce.png');
+    color: white !important;
+    background-color: #66b2e4 !important;
+    border-bottom: 2px solid black !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+.contenu_fieldset {
+    display: none;
+}
+
+table {
+    margin: 0 auto;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    width: 50px;
+}

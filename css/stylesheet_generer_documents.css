@@ -1,0 +1,14 @@
+#rechercher_personne input {
+    margin: 0 !important;
+}
+
+.mi_largeur {
+    width: 49.4% !important;
+}
+
+#rechercher_collaborateur input, #rechercher_collaborateur select, #rechercher_collaborateur textarea {
+    width: 100%;
+    margin-bottom: 3px !important;
+    padding: 1px !important;
+}
+

@@ -1,0 +1,114 @@
+#titre_page {
+    margin-bottom: 5%;
+}
+
+.bouton_menu {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.bouton_menu_gauche {
+    width: 28%;
+    display: inline-block !important;
+    margin-left: 20%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 26%;
+}
+
+.bouton_menu_droite {
+    width: 28%;
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 26%;
+}
+
+nav .deconnexion {
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 2% !important;
+    padding-bottom: 3.5%;
+    background: #bebebe url("../commonfiles/images/icone_deconnexion.svg") no-repeat right;
+    background-size: 15%;
+}
+
+nav .gerer {
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+    background: #c6a586 url("../commonfiles/images/icone_gerer_collaborateurs.svg") no-repeat center;
+    background-size: 50%;
+}
+
+nav .gerer:hover {
+    background-color: #966d47 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .editer {
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+    background: #a8d3f0 url("../commonfiles/images/icone_editer_documents.svg") no-repeat center;
+    background-size: 50%;
+}
+
+nav .editer:hover {
+    background-color: #66b2e4 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .generer {
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+    background: #ffec80 url("../commonfiles/images/icone_generer_documents.svg") no-repeat center;
+    background-size: 50%;
+}
+
+nav .generer:hover {
+    background-color: #f4cf00 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav .parametres {
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+    background: #f29900 url("../commonfiles/images/icone_parametre.svg") no-repeat center;
+    background-size: 100%;
+}
+
+nav .parametres:hover {
+    background-color: #d07700 !important;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+}
+
+nav li {
+    position: relative !important;
+}
+
+nav li a {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100% !important;
+    background-color: transparent !important;
+    color: black;
+}
+
+nav li a:hover {
+    background-color: transparent !important;
+    color: black;
+}
+
+nav li a:visited {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.desactive {
+    -webkit-filter: brightness(25%) !important;
+}

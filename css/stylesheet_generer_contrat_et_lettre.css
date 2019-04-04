@@ -1,0 +1,56 @@
+label {
+    float: left;
+}
+#table_apercu{
+    margin: 0 auto;
+}
+
+textarea, select {
+    float: left;
+}
+
+#generer{
+    margin-top :5%;
+}
+#telechargement,#generer{
+    text-align: center;
+}
+#liste_paragraphe td{
+    padding-right: 50px;
+    text-align: left;
+}
+
+.panel {
+    border-color: #8ca40a !important;
+    text-align: center;
+}
+
+.panel h2 {
+    margin: 0;
+    font-size: 170%;
+    color: white !important;
+}
+
+.panel-heading {
+    background-color: #8ca40a !important;
+    border-color: #8ca40a !important;
+}
+
+.panel table {
+    width: 100%;
+    font-size: 120%;
+    border: 2px solid black;
+    border-radius: 1%;
+}
+
+.panel tr {
+    border: 1px solid black;
+    -webkit-transition: box-shadow 0.5s; /* Safari */
+    transition: box-shadow 0.5s;
+}
+
+.panel tr:hover {
+    box-shadow: 0 0 5px #aaaaaa;
+    -webkit-transition: box-shadow 0.3s; /* Safari */
+    transition: box-shadow 0.3s;
+}

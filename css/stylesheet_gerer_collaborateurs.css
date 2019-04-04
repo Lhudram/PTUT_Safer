@@ -1,0 +1,18 @@
+#rechercher_personne input {
+    margin: 0 !important;
+}
+
+#rechercher_collaborateur input, #rechercher_collaborateur select, #rechercher_collaborateur textarea {
+    width: 25%;
+    margin-bottom: 3px !important;
+    padding: 1px !important;
+}
+
+#recherche_complet_incomplet {
+    width: 25%;
+    margin: auto;
+}
+
+#liste_collaborateurs option {
+    text-align: left;
+}
